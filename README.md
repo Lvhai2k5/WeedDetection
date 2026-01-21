@@ -10,7 +10,7 @@ Mục tiêu chính là hỗ trợ nông dân phát hiện cỏ dại nhanh chón
 
 ## 🎯 Chức năng chính
 
-* 📷 Thu thập hình ảnh từ camera IoT (Raspberry Pi / ESP32-CAM)
+* 📷 Thu thập hình ảnh từ camera IoT (ESP32-CAM)
 * 🤖 Nhận dạng cỏ dại bằng mô hình **CNN**
 * 🌐 Gửi và xử lý dữ liệu bằng ứng dụng **Python**
 * 📊 Hiển thị kết quả nhận dạng
@@ -20,7 +20,7 @@ Mục tiêu chính là hỗ trợ nông dân phát hiện cỏ dại nhanh chón
 
 ## 🛠️ Công nghệ sử dụng
 
-* **Phần cứng:** Raspberry Pi / ESP32-CAM, Camera, WiFi
+* **Phần cứng:** ESP32-CAM và WiFi
 * **Phần mềm:** Python 3.x, OpenCV, TensorFlow/Keras, NumPy
 * **Mô hình AI:** CNN (Convolutional Neural Network)
 
@@ -37,10 +37,8 @@ Mục tiêu chính là hỗ trợ nông dân phát hiện cỏ dại nhanh chón
 ## 🚀 Cách chạy chương trình
 
 ```bash
-git clone https://github.com/your-username/weed-detection-iot.git
-cd weed-detection-iot
-pip install -r requirements.txt
-python main.py
+git clone https://github.com/Lvhai2k5/WeedDetection.git
+python WeedDetection.py
 ```
 
 ---
@@ -48,11 +46,10 @@ python main.py
 ## 📂 Cấu trúc thư mục
 
 ```
-weed-detection-iot/
-│-- main.py        # Chương trình chính
-│-- cnn_model.py   # Mô hình CNN
-│-- camera.py      # Xử lý camera
-│-- requirements.txt
+/
+│-- WeedDetection.py        # Chương trình chính
+│-- model.py                # Mô hình CNN
+|-- sketch_dec4a.ino        # Chương trình IoT
 │-- README.md
 ```
 
@@ -69,14 +66,17 @@ weed-detection-iot/
 
 * Tăng độ chính xác mô hình CNN
 * Tích hợp phun thuốc tự động
-* Lưu dữ liệu lên Cloud
 
 ---
 
 ## 👨‍💻 Tác giả
 
-* **Hải Lê**
+* **Lê Vũ Hải**
+* **Lê Thị Thảo**
+* **Huỳnh Hoài Phương**
+* **Vũ Minh Khang**
 
 ---
 
 ✨ *Weed Detection using IoT & Python with CNN*
+
