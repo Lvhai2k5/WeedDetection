@@ -78,6 +78,7 @@ python WeedDetection.py
 
 ---
 
-✨ *Weed Detection using IoT & Python with CNN*
+✨ *Weed Detection using IoT & Python with YOLO - MONG MUỐN NHẬN ĐƯỢC SỰ ĐÓNG GÓP TỪ MỌI NGƯỜI (lehai332k5@gmail.com)*
+
 
 
