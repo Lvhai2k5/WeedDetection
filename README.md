@@ -1,8 +1,8 @@
-# 🌱 Weed Detection using IoT & Python (CNN)
+# 🌱 Weed Detection
 
 ## 📌 Giới thiệu
 
-Dự án **Weed Detection** là hệ thống phát hiện cỏ dại trong nông nghiệp thông minh, sử dụng **thiết bị IoT** kết hợp **ứng dụng Python** và **mô hình CNN (Convolutional Neural Network)** để nhận dạng cỏ dại từ hình ảnh.
+Dự án **Weed Detection** là hệ thống phát hiện cỏ dại trong nông nghiệp thông minh, sử dụng **thiết bị IoT** kết hợp **ứng dụng Python** và **mô hình YOLO** để nhận dạng cỏ dại từ hình ảnh.
 
 Mục tiêu chính là hỗ trợ nông dân phát hiện cỏ dại nhanh chóng, giảm công sức thủ công và nâng cao hiệu quả canh tác.
 
@@ -11,7 +11,7 @@ Mục tiêu chính là hỗ trợ nông dân phát hiện cỏ dại nhanh chón
 ## 🎯 Chức năng chính
 
 * 📷 Thu thập hình ảnh từ camera IoT (ESP32-CAM)
-* 🤖 Nhận dạng cỏ dại bằng mô hình **CNN**
+* 🤖 Nhận dạng cỏ dại bằng mô hình **YOLO**
 * 🌐 Gửi và xử lý dữ liệu bằng ứng dụng **Python**
 * 📊 Hiển thị kết quả nhận dạng
 * 🔔 Cảnh báo khi phát hiện cỏ dại
@@ -22,11 +22,11 @@ Mục tiêu chính là hỗ trợ nông dân phát hiện cỏ dại nhanh chón
 
 * **Phần cứng:** ESP32-CAM và WiFi
 * **Phần mềm:** Python 3.x, OpenCV, TensorFlow/Keras, NumPy
-* **Mô hình AI:** CNN (Convolutional Neural Network)
+* **Mô hình AI:** YOLO
 
 ---
 
-## 🧠 Mô hình CNN
+## 🧠 Mô hình YOLO
 
 * Nhận đầu vào là hình ảnh từ camera
 * CNN tự động trích xuất đặc trưng
@@ -64,7 +64,7 @@ python WeedDetection.py
 
 ## 🔮 Hướng phát triển
 
-* Tăng độ chính xác mô hình CNN
+* Tăng độ chính xác mô hình YOLO
 * Tích hợp phun thuốc tự động
 
 ---
@@ -79,4 +79,5 @@ python WeedDetection.py
 ---
 
 ✨ *Weed Detection using IoT & Python with CNN*
+
 
