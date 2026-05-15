@@ -52,8 +52,8 @@ python WeedDetection.py
 ```
 /
 │-- WeedDetection.py        # Chương trình chính
-│-- model.py                # Mô hình CNN
-|-- sketch_dec4a.ino        # Chương trình IoT
+│-- model.py                # Mô hình Yolo
+|-- esp32.ino               # Chương trình IoT
 │-- README.md
 ```
 

@@ -19,6 +19,7 @@ import os
 from ultralytics import YOLO
 DEFAULT_ESP32_IP = "10.10.10.10"
 
+# ================== CONFIG & GLOBALS ==================
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 YOLO_PATH = os.path.join(BASE_DIR, "model.pt")
