@@ -1,6 +1,8 @@
 # 🌱 Weed Detection
 
-![Banner](images/result.png)
+<p align="center">
+  <img src="images/result.png" width="700"/>
+</p>
 
 ## 📌 Giới thiệu
 
@@ -61,9 +63,19 @@ python WeedDetection.py
 
 * Nhận dạng được cỏ dại từ hình ảnh
 * Hệ thống hoạt động ổn định trên nền tảng IoT
-![Weed Detection Demo](images/test1.png)
-![Weed Detection Demo](images/test2.png)
-![Weed Detection Demo](images/application.png)
+
+
+<p align="center">
+  <img src="images/test1.png" width="700"/>
+</p>
+
+<p align="center">
+  <img src="images/test1.png" width="700"/>
+</p>
+
+<p align="center">
+  <img src="images/application.png" width="700"/>
+</p>
 ---
 
 ## 🔮 Hướng phát triển
