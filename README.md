@@ -1,5 +1,7 @@
 # 🌱 Weed Detection
 
+![Banner](images/result.png)
+
 ## 📌 Giới thiệu
 
 Dự án **Weed Detection** là hệ thống phát hiện cỏ dại trong nông nghiệp thông minh, sử dụng **thiết bị IoT** kết hợp **ứng dụng Python** và **mô hình YOLO** để nhận dạng cỏ dại từ hình ảnh.
@@ -59,7 +61,9 @@ python WeedDetection.py
 
 * Nhận dạng được cỏ dại từ hình ảnh
 * Hệ thống hoạt động ổn định trên nền tảng IoT
-
+![Weed Detection Demo](images/test1.png)
+![Weed Detection Demo](images/test2.png)
+![Weed Detection Demo](images/application.png)
 ---
 
 ## 🔮 Hướng phát triển
