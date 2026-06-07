@@ -3,8 +3,8 @@
 #include <WebServer.h>
 
 // ================= WIFI =================
-const char* ssid = "Vivo";
-const char* password = "12345678";
+const char* ssid = "618";
+const char* password = "618618618@";
 
 // ================= RELAY =================
 #define RELAY_PIN 13

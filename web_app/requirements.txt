@@ -1,0 +1,7 @@
+Flask==3.0.0
+mysql-connector-python==8.2.0
+ultralytics==8.0.228
+opencv-python==4.8.1.78
+Pillow==10.1.0
+numpy==1.26.2
+requests==2.31.0
